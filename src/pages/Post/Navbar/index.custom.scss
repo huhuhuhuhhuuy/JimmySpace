@@ -11,7 +11,7 @@ $title-level-margin: 18px;
   width: 300px;
   user-select: none;
   padding: 10px;
-  max-height: 700px;
+  max-height: 1000px;
   overflow-y: auto;
   margin: 10px;
 
@@ -23,8 +23,9 @@ $title-level-margin: 18px;
     margin-bottom: 10px;
     font-size: 18px;
     word-break: break-all;
-    background-color: $themeColor1;
-    border-radius: 8px;
+    background-color: rgba(90, 90, 120, 0.3);
+    border-radius: 20px;
+    color: rgb(233, 105, 31);
     @extend .hover;
   }
   .title-anchor:last-child {
@@ -33,10 +34,12 @@ $title-level-margin: 18px;
 
   .title-level3 {
     margin-left: $title-level-margin * 1;
+    color: rgb(80, 190, 220);
   }
 
   .title-level4 {
     margin-left: $title-level-margin * 2;
+    color: rgb(255, 255, 255);
   }
 
   .title-level5 {
@@ -44,7 +47,7 @@ $title-level-margin: 18px;
   }
 
   .active {
-    background-color: $hoverColor;
+    background-color: rgb(35,41,48);
   }
 }
 
@@ -105,15 +108,15 @@ $title-level-margin: 18px;
     }
 
     .title-level3 {
-      margin-left: 6rem * 1;
+      margin-left: 8rem * 1;
     }
 
     .title-level4 {
-      margin-left: 6rem * 2;
+      margin-left: 8rem * 2;
     }
 
     .title-level5 {
-      margin-left: 6rem * 3;
+      margin-left: 8rem * 3;
     }
   }
 }

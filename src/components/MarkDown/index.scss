@@ -14,30 +14,46 @@
     font-weight: 700;
   }
   h5 {
-    font-size: 22px;
+    font-size: 20px;
   }
   h4 {
-    font-size: 24px;
+    font-size: 22px;
   }
   h3 {
-    font-size: 26px;
+      font-size: 26px;
+      color: rgb(42, 95, 245);
+      background-color: rgb(195, 228, 243);
+      border-radius: 40px;
+      line-height: 45px;
+      padding: 5px 20px;
+      display: inline-block;
   }
   h2 {
-    font-size: 28px;
+    font-size: 40px;
+    color: rgb(239, 126, 40);
+    background-color: rgb(249, 206, 173);
+    border-radius: 100px;
+    line-height: 160px;
+    padding: 0 50px;
+    display: block;
+    overflow: visible;
   }
+  // 🔴🟠🟡🟢🔵▶️➡️❣️🔗🔖🔍📍📍🧪🔮🔆🔅🔘🔶🔹⬜️🔲◾️▫️♠️♣️♦️c c📣🔔💬➰
   h2:before {
-    content: '✒️';
+    content: '🟠 ';
   }
   h3:before {
-    content: '✏️';
+    content: '🔹 ';
   }
   h4:before {
-    content: '📌';
+    content: '📍 ';
   }
   h5:before {
-    content: '🏷️';
+    content: '💬';
   }
-
+  li {
+      line-height: 37px;
+  }
   p {
     margin-bottom: 20px;
   }
@@ -88,7 +104,6 @@
     font-weight: 700;
     text-decoration: underline !important;
     margin: 0 4px;
-    color: $hoverColor;
     @extend .trans;
   }
   a:hover {

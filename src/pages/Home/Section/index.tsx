@@ -12,6 +12,7 @@ import { homeSize, staleTime } from '@/utils/constant';
 
 import s from './index.scss';
 import PostCard from './PostCard';
+import Articles from '@/pages/Articles';
 
 interface theAtc {
   classes: string;
@@ -52,7 +53,8 @@ const Section: React.FC<Props> = ({ artSum }) => {
       staleTime
     }
   );
-
+console.log('Articles');
+console.log(data);
   return (
     <section className={s.section}>
       {data?.data.map(({ _id, title, content, date, tags, titleEng }: theAtc) => (

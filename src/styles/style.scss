@@ -8,7 +8,8 @@
   @extend .trans;
 }
 .hover:hover {
-  background-color: $hoverColor !important;
+  // background-color: $hoverColor !important;
+  background-color: rgb(35, 41, 48);
 }
 
 .btnBase {
